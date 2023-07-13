@@ -1,0 +1,20 @@
+"vim.insertModeKeyBindingsNonRecursive": [
+    {
+        "before": ["j", "k"],
+        "after": ["<Esc>"]
+    }
+],
+"vim.normalModeKeyBindings": [
+    {
+        "before": ["<leader>", "e"],
+        "commands": [":NvimTreeToggle<CR>"]
+    },
+    {
+        "before": ["<C-l>"],
+        "commands": [":bnext<CR>"]
+    },
+    {
+        "before": ["<C-h>"],
+        "commands": [":bprevious<CR>"]
+    }
+]
